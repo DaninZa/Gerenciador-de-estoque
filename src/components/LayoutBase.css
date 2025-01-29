@@ -1,0 +1,19 @@
+header,
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+
+  a {
+    color: white;
+  }
+}
+
+header {
+  padding: 0 2rem;
+}
+
+nav {
+  gap: 1.5rem;
+}

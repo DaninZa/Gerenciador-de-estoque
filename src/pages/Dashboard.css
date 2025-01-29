@@ -1,0 +1,33 @@
+.wrapper-statistics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.wrapper-information {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.box-information-table {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.box-statistics {
+  flex-grow: 1;
+  flex-basis: 0;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  background-color: #1c1a1d;
+  font-size: 4rem;
+  padding: 1.5rem;
+  height: 10rem;
+  display: grid;
+
+  div {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: start;
+  }
+}
